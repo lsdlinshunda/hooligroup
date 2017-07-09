@@ -1,3 +1,5 @@
+'use strict';
+
 const express = require('express')
 const model = require('../db/db.js')
 const router = express.Router()

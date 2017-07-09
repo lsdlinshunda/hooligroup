@@ -1,3 +1,5 @@
+'use strict';
+
 // 监测 token 是否过期
 const jwt = require('jsonwebtoken')
 module.exports = function (req, res, next) {
